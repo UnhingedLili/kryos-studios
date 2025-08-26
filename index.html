@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logos/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logos/favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>Kryos Studios</title>
 </head>
 
@@ -20,8 +23,8 @@
                     <a href="#home">Home</a>
                     <a href="#portfolio">Portfolio</a>
                     <a href="#services">Services</a>
-                    <a href="#">Testimonials</a>
-                    <a href="#">Pricing</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#pricing">Pricing</a>
                 </div>
                 <div class="nav-btn">
                     <a href="#" class="contact-btn">Contact</a>
@@ -73,7 +76,7 @@
                 <button class="portfolio-filter-btn">Creative Consultation</button>
             </div>
             <div class="portfolio-cards">
-                <div class="cards-container">
+                <div class="cards-container cards-container--portfolio">
                     <img src="images/elements/brand-strategy.avif">
                     <div class="card-content">
                         <h3>Brand Strategy</h3>
@@ -82,7 +85,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="cards-container">
+                <div class="cards-container cards-container--portfolio">
                     <img src="images/elements/content-production.avif">
                     <div class="card-content">
                         <h3>Content Production</h3>
@@ -90,7 +93,7 @@
                             with intention. Produced with speed.</p>
                     </div>
                 </div>
-                <div class="cards-container">
+                <div class="cards-container cards-container--portfolio">
                     <img src="images/elements/design-systems.avif">
                     <div class="card-content">
                         <h3>Design Systems</h3>
@@ -98,12 +101,30 @@
                             cues that make your brand instantly recognizable.</p>
                     </div>
                 </div>
-                <div class="cards-container">
+                <div class="cards-container cards-container--portfolio">
                     <img src="images/elements/creative-consultation.avif">
                     <div class="card-content">
                         <h3>Creative Consultation</h3>
                         <p>We dont just execute—we think with you. Whether you're shifting direction or scaling up, we
                             help you make sharp creative calls that move the brand forward.</p>
+                    </div>
+                </div>
+                <div class="cards-container cards-container--portfolio">
+                    <img src="images/elements/brand-strategy.avif">
+                    <div class="card-content">
+                        <h3>Brand Strategy</h3>
+                        <p>We align your brand's tone, voice, and purpose into one coherent direction. From campaign
+                            themes to content pillars, we give your message shape and movement.
+                        </p>
+                    </div>
+                </div>
+                <div class="cards-container cards-container--portfolio">
+                    <img src="images/elements/brand-strategy.avif">
+                    <div class="card-content">
+                        <h3>Brand Strategy</h3>
+                        <p>We align your brand's tone, voice, and purpose into one coherent direction. From campaign
+                            themes to content pillars, we give your message shape and movement.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -124,9 +145,9 @@
             <p class="description">We offer comprehensive creative solutions to help your brand make a lasting impact.
                 From concept to completion, we're your creative partners every step of the way.</p>
         </div>
-        <div class="services-cards">
-            <div class="sc-contents">
-                <div class="graphic-design">
+        <div class="cards-wrapper">
+            <div class="cards-content cards-content--services">
+                <div class="card-body">
                     <div class="service-icon service-icon--blue">
                         <i class="fa-solid fa-palette"></i>
                     </div>
@@ -145,8 +166,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="sc-contents">
-                <div class="video-editing">
+            <div class="cards-content cards-content--services">
+                <div class="card-body">
                     <div class="service-icon service-icon--purple">
                         <i class="fa-solid fa-video"></i>
                     </div>
@@ -165,8 +186,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="sc-contents">
-                <div class="marketing">
+            <div class="cards-content cards-content--services">
+                <div class="card-body">
                     <div class="service-icon service-icon--green">
                         <i class="fa-solid fa-bullhorn"></i>
                     </div>
@@ -236,6 +257,173 @@
                     <a href="#" class="view-rates-btn">View Our Rates</a>
                 </div>
             </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="title">What Our Clients Say</h2>
+            <p class="description">Don't just take our word for it. Here's what some of our amazing clients have to say
+                about working with KRYOS. Their success stories speak to our commitment to delivering exceptional
+                creative solutions.</p>
+        </div>
+        <div class="cards-wrapper">
+            <div class="cards-container cards-container--testimonials">
+                <div class="card-body card-body--testimonials">
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonials-italic">
+                        "KRYOS completely transformed our brand identity. Their creative approach and attention to
+                        detail exceeded our expectations. The new design has significantly improved our market presence
+                        and helped us stand out in a competitive industry."
+                    </p>
+                    <div class="testimonials-author">
+                        <img src="images/logos/favicon_io/apple-touch-icon.png" alt="profile" class="author-img">
+                        <div class="author-creds">
+                            <h4>Michael Chen</h4>
+                            <p>CEO, TechStart Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body card-body--testimonials">
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonials-italic">
+                        "Working with KRYOS was a game-changer for our digital marketing strategy. Their comprehensive
+                        approach helped us reach new audiences and achieve our business goals. The ROI on their services
+                        has been incredible."
+                    </p>
+                    <div class="testimonials-author">
+                        <img src="images/logos/favicon_io/apple-touch-icon.png" alt="profile" class="author-img">
+                        <div class="author-creds">
+                            <h4>David Rodriguez</h4>
+                            <p>Founder, LocalBiz Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body card-body--testimonials">
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonials-italic">
+                        "The video content KRYOS created for our marketing campaign was absolutely phenomenal. Our
+                        engagement rates increased by 250% after launching their creative video series. The team
+                        understood our vision perfectly and delivered beyond expectations."
+                    </p>
+                    <div class="testimonials-author">
+                        <img src="images/logos/favicon_io/apple-touch-icon.png" alt="profile" class="author-img">
+                        <div class="author-creds">
+                            <h4>Sarah Johnson</h4>
+                            <p>Marketing Director, GrowthCo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body card-body--testimonials">
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonials-italic">
+                        "The collaboration with KRYOS was seamless from start to finish. They took our rough concepts
+                        and turned them into stunning visual content that perfectly represents our brand. Their
+                        expertise in both design and strategy is unmatched."
+                    </p>
+                    <div class="testimonials-author">
+                        <img src="images/logos/favicon_io/apple-touch-icon.png" alt="profile" class="author-img">
+                        <div class="author-creds">
+                            <h4>Emily Watson</h4>
+                            <p>Artist, Harry Potter</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body card-body--testimonials">
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonials-italic">
+                        "KRYOS delivered exceptional results within our tight deadline. Their project management and
+                        communication throughout the process was outstanding. The final deliverables exceeded our
+                        quality expectations and have been instrumental in our recent growth."
+                    </p>
+                    <div class="testimonials-author">
+                        <img src="images/logos/favicon_io/apple-touch-icon.png" alt="profile" class="author-img">
+                        <div class="author-creds">
+                            <h4>James Mitchell</h4>
+                            <p>Operations Manager, ScaleUp Corp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body card-body--testimonials">
+                    <div class="star-icon">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonials-italic">
+                        "The strategic marketing approach KRYOS developed for us resulted in a 400% increase in lead
+                        generation. Their understanding of our target audience and ability to create compelling content
+                        that converts is remarkable."
+                    </p>
+                    <div class="testimonials-author">
+                        <img src="images/logos/favicon_io/apple-touch-icon.png" alt="profile" class="author-img">
+                        <div class="author-creds">
+                            <h4>Lisa Thompson</h4>
+                            <p>Brand Manager, NextGen Tech</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cta testimonials-cta">
+            <h2>Proven Results That Speak for Themselves</h2>
+            <p>Our clients' success is our success. Here are some of the measurable results we've achieved together.</p>
+            <div class="analytics-container">
+                <div class="blue-text">
+                    <h2>150+</h2>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="blue-text">
+                    <h2>98%</h2>
+                    <p>Client Satisfaction </p>
+                </div>
+                <div class="blue-text">
+                    <h2>300%</h2>
+                    <p>Average ROI Increase</p>
+                </div>
+                <div class="blue-text">
+                    <h2>50+</h2>
+                    <p>Brands Transformed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="title">Our Pricing</h2>
+            <p class="description">Transparent pricing for all our services. Choose the package that best fits your
+                needs and budget. No hidden fees, no surprises - just exceptional creative work at fair prices.</p>
         </div>
     </section>
 
