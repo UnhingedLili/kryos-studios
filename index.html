@@ -491,7 +491,137 @@
             </div>
         </div>
     </section>
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <h2 class="title">Get in touch</h2>
+            <p class="description gray-text">Ready to start your project? Contact us today and let's bring your vision
+                to life. We're here to answer your questions and discuss how we can help your brand succeed.</p>
+            <div class="contact-wrapper">
+                <form class="contact-message cards-contact">
+                    <h2 class="send-msg">Send us a message</h2>
 
+                    <div class="name">
+                        <div class="first-name">
+                            <label for="first-name">First Name</label>
+                            <input name="first-name" placeholder="John" id="first-name" required
+                                aria-describedby="first-name-error">
+                            <p id="first-name-error" class="field-error" role="alert" hidden>
+                                First name is required.
+                            </p>
+                        </div>
+                        <div class="last-name">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" placeholder="Doe" id="last-name" required
+                                aria-describedby="last-name-error">
+                            <p id="last-name-error" class="field-error" role="alert" hidden>
+                                Last name is required.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com"
+                            aria-describedby="email-hint email-error" required>
+                        <!-- <p id="email-hint" class="field-hint">Use a valid email address.</p>
+                    <p id="email-error" class="field-error" role="alert" hidden>
+                        Email is required.</p> -->
+                    </div>
+                    <div class="service-option">
+                        <label for="service">Service Interested In</label>
+                        <select id="service" name="service" required aria-describedby="service-error">
+                            <option value="" disabled selected>Select a service</option>
+                            <option value="design">Graphic Design</option>
+                            <option value="video">Video Editing</option>
+                            <option value="marketing">Marketing</option>
+                            <option value="branding">Service Package</option>
+                            <option value="branding">Custom Solution</option>
+                        </select>
+                        <!--<p id="service-error" class="field-error" role="alert" hidden>
+                        Please select a service.-->
+                        </p>
+                    </div>
+                    <div class="budget-option">
+                        <label for="budget">Budget Range <span class="optional"
+                                aria-hidden="true">(Optional)</span></label>
+                        <select id="budget" name="budget" aria-describedby="budget-help">
+                            <option value="" selected disabled>Select budget range</option>
+                            <option value="under-1k">Under $1,000</option>
+                            <option value="1k-3k">$1,000 - $3,000</option>
+                            <option value="3k-5k">$3,000 - $5,000</option>
+                            <option value="5k-10k">$5,000 - $10,000</option>
+                            <option value="10k-plus">$10,000+</option>
+                            <option value="not-sure">Not sure yet</option>
+                        </select>
+                    </div>
+                    <div class="project-details">
+                        <label for="project">Project Details</label>
+                        <textarea id="project" name="message" placeholder="Tell us about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="blue-btn message-btn">Send Message</button>
+                </form>
+                <div class="contact-social">
+                    <div class="contact-info cards-contact">
+                        <h2>Other Ways to reach us</h2>
+                        <ul class="contact-info-list">
+                            <!-- Email -->
+                            <li class="contact-info-item">
+                                <span class="contact-info-icon" aria-hidden="true">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                                <div class="contact-info-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:welcome.kryos@gmail.com">welcome.kryos@gmail.com</a>
+                                </div>
+                            </li>
+
+                            <!-- Phone -->
+                            <li class="contact-info-item">
+                                <span class="contact-info-icon" aria-hidden="true">
+                                    <i class="fa-solid fa-phone"></i>
+                                </span>
+                                <div class="contact-info-text">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+639155926010">+63 915 592 6010</a>
+                                </div>
+                            </li>
+
+                            <!-- Hours -->
+                            <li class="contact-info-item">
+                                <span class="contact-info-icon" aria-hidden="true">
+                                    <i class="fa-regular fa-clock"></i>
+                                </span>
+                                <div class="contact-info-text">
+                                    <h4>Business Hours</h4>
+                                    <p>Mon-Fri: 9AM-6PM EST</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="social-info cards-contact">
+                        <h2>Follow us on social media</h2>
+                        <div class="socials-grid">
+                            <a href="#" class="social-link facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <p>Facebook</p>
+                            </a>
+                            <a href="#" class="social-link instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                                <p>Instagram</p>
+                            </a>
+                            <a href="#" class="social-link tiktok">
+                                <i class="fa-brands fa-tiktok"></i>
+                                <p>Tiktok</p>
+                            </a>
+                            <a href="#" class="social-link linkedin">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <p>LinkedIn</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
