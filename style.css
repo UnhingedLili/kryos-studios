@@ -36,6 +36,7 @@ body {
     background-color: #fff;
     min-height: 100vh;
     font-size: var(--base-font-size);
+    overflow-x: clip;
 }
 
 .nav-container {
@@ -231,7 +232,6 @@ img {
 .stats-card {
     position: absolute;
     bottom: -1.5rem;
-    /* adjust overlap */
     left: -2rem;
     background: #fff;
     padding: 1.5rem 1.5rem;
@@ -1030,11 +1030,11 @@ textarea::placeholder {
     background: linear-gradient(45deg,
             #9633e4,
             #d7297c);
-    }
+}
 
 .tiktok {
-        background-color: black;
- transition: background 0.2s ease;
+    background-color: black;
+    transition: background 0.2s ease;
 }
 
 .tiktok:hover {
@@ -1042,10 +1042,87 @@ textarea::placeholder {
 }
 
 .linkedin {
-        background-color: #1c4ed8;
- transition: background 0.2s ease;
+    background-color: #1c4ed8;
+    transition: background 0.2s ease;
 }
 
 .linkedin:hover {
     background: #1d40af;
+}
+
+.footer-dark {
+    background: #353e4a;
+    width: 100%;
+}
+
+.footer-title,
+.footer-grid p,
+.footer-bottom {
+    color: #d1d5db;
+}
+
+.footer-dark a {
+    text-decoration: none;
+    color: #d1d5db;
+}
+
+.footer-grid ul li {
+    list-style: none;
+}
+
+.footer-social {
+    display: flex;
+    gap:1rem;
+}
+
+.footer-social i{
+    font-size: 1.3rem;
+    display: block;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.footer-brand {
+    grid-column: span 2 / span 2;
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-brand p{
+    max-width: 35rem;
+    font-size: 1rem;
+}
+
+.footer-brand img {
+    height: auto;
+    width: clamp(7rem, 20vw, 10rem);
+}
+
+.footer-col h4{
+    margin-bottom: .55rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footer-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .60rem;
+}
+
+.footer-bottom {
+    border-top: .5px solid #4b5563;   /* shorthand way */
+    display: flex;
+    justify-content: center;
+    margin: 1.50rem 0;
+}
+
+.footer-bottom p{
+    margin-top: 1rem;
+    color: #9ca3af;
 }
